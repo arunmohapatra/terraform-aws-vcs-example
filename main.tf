@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "my_instance" {
-    instancetype = "t2.micro"
+    instance_type = "t2.micro"
     ami = "ami-0cff7528ff583bf9a"
     provider = aws.us-east-1
 }
