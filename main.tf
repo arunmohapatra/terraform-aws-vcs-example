@@ -4,7 +4,7 @@ terraform {
     organization = "my-organizations"
 
     workspaces {
-      name = "my-vcs-example"
+      name = "harness-terraform-testing"
     }
   }
     required_providers {
